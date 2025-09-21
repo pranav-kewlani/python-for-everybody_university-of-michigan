@@ -13,5 +13,19 @@ except:
 
 """
 output:
+provide European floor number: 5.5
+please enter a valid floor number
+
+provide European floor number:3
+please proceed to floor 4
+
+provide European floor number:4
+please proceed to floor 5 in the US
+
+provide European floor number:five
+please enter a valid floor number
+
+provide European floor number (numbers only):4
+please proceed to floor 5 in the US
 
 """
