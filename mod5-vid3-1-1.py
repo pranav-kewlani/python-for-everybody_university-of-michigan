@@ -23,3 +23,10 @@ if x!=6:
 	x id 5 or less
 	x still 5 or less
 	x is not 6 """
+
+#exploring if-else combo
+	y=4
+	if y>2:
+		print("4 is larger than 2")
+	else:
+		print("2 is smaller than 4")
