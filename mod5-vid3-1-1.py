@@ -37,8 +37,10 @@ if z<2:
 	print("10 is lesser than 2")
 elif z>2:
 	print("10 larger than 2")
-elif z>5:
-	print("10 is larger than 5")	#this will be skipped, as line 39 executed
+	if z>5:
+		print("10 is larger than 5")	#this will be executed becuase its nested within an elif that will be executed
+elif z>6:
+	print("10 is larger than 6")	#this wont be executed because elif at line 38 is already executed
 else:
 	print("10 is between 2 & 100")
 print ("all checked")
