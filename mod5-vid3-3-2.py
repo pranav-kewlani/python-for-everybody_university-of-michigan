@@ -6,10 +6,14 @@ strA= "Bob"
 try:
 	print("Hello there")
 	strI= int(strA)
-	print("How are you") #this should have been executed, does not contain any errors. But will not be executed, bec the exeution will jump to the except block due to the Traceback at line 8
+	print("How are you") #this should have been executed, does not contain any errors. But will not be executed, bec exeution will jump to except block due to the Traceback at line 8
 
 except:
 	strI=-1
 
 print ("end of code, I =", strI)
 
+""" output:
+Hello there
+end of code, I = -1
+"""
