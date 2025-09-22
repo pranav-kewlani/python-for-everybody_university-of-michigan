@@ -47,4 +47,5 @@ print ("all checked")
 
 """ output:
 10 larger than 2
+10 is larger than 5
 all checked """
