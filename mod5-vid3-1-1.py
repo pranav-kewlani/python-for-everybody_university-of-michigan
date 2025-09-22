@@ -30,3 +30,19 @@ if x!=6:
 		print("4 is larger than 2")
 	else:
 		print("2 is smaller than 4")
+
+#exploring if-elif-else combo
+z=10
+if z<2:
+	print("10 is lesser than 2")
+elif z>2:
+	print("10 larger than 2")
+elif z>5:
+	print("10 is larger than 5")	#this will be skipped, as line 39 executed
+else:
+	print("10 is between 2 & 100")
+print ("all checked")
+
+""" output:
+10 larger than 2
+all checked """
