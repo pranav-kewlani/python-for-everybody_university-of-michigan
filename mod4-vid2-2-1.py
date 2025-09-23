@@ -4,6 +4,15 @@ print(x,y)
 
 #output: 11.0 11.0
 
+# trying floored int diviion (//) and modulus (%) operators
+print ("trying floored division (//):", x//10)	#expected output: 1
+print ("trying modulus operator(%):",y%3)	#expected output: 2
+
+"""	output:
+trying floored division (//): 1.0
+trying modulus operator(%): 2.0
+"""
+
 #using the + and * operators with strings
 
 first = "test"
