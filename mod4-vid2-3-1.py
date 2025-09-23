@@ -1,5 +1,5 @@
 #problem stmnt: Europe floor count starts from 0 (Ground is 0) whereas US floor count starts from 1 (Ground is 1). here's a code to convert european floors to US floors.
-eurofloor=input("provide European floor number (numbers only):")
+eurofloor=input("provide European floor number (numbers only):\n")
 
 #try block to check if floor number provided in int
 try:
