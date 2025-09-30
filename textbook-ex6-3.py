@@ -16,6 +16,6 @@ print("the letter",'"',inp_lett,'"',"is present",count(strS,inp_lett),"times in 
 provide a string:
 pranav
 what letter's frequency do you need? a
-the letter " a " is present 2 times in the string " pranav "
+the letter " a " is present 2 times in the string " pranav " 
 
 """
